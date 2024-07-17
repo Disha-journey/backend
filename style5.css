@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: rgb(50, 50, 49);
+    color: whitesmoke;
+    padding: 10px 0;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(117, 92, 62);
+}
+.nav a {
+    color: rgb(11, 11, 11);
+    color: whitesmoke;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.nav a:hover {
+    background-color: rgb(50, 50, 49);
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+.form input {
+    display: block;
+    width: 98%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+

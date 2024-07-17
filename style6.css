@@ -1,0 +1,23 @@
+.content{
+    background-color: rgb(50, 50, 49);
+    height:50px;
+    text-align: center;
+    padding:auto;
+    color: whitesmoke;
+    margin-top: 10px;
+
+}
+    table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
